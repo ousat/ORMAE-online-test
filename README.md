@@ -2,6 +2,9 @@
 
 # Real Time Vehicle Tracking APP
 
+## Design
+    ![rough flow](https://raw.githubusercontent.com/ousat/ORMAE-online-test/master/images/arch.png)
+
 - The driver of the vehicles downloads a mobile app, registers the vehicle
 
 - Registered vehicles send GPS data via websockets every 200 milliseconds. 
@@ -19,6 +22,11 @@ Vehicle ID and GPS position of the vehicle is stored and updated in Redis
 
 - Dashboard fetches active vehicles and position from Redis and Vehicle/driver data from DB
 - upon selecting a particlar vehicle, that vehicle's info is fetched from DB
+
+## Database
+    - 2 tables( collections if primary db is mongodb)
+    - ![rough flow](https://raw.githubusercontent.com/ousat/ORMAE-online-test/master/images/database.png)
+    
 
 
 ## Technologies used
