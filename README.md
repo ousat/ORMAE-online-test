@@ -3,7 +3,7 @@
 # Real Time Vehicle Tracking APP
 
 ## Design
-    ![rough flow](https://raw.githubusercontent.com/ousat/ORMAE-online-test/master/images/arch.png)
+![rough flow](https://raw.githubusercontent.com/ousat/ORMAE-online-test/master/images/arch.png)
 
 - The driver of the vehicles downloads a mobile app, registers the vehicle
 
@@ -25,7 +25,7 @@ Vehicle ID and GPS position of the vehicle is stored and updated in Redis
 
 ## Database
     - 2 tables( collections if primary db is mongodb)
-    - ![rough flow](https://raw.githubusercontent.com/ousat/ORMAE-online-test/master/images/database.png)
+![rough flow](https://raw.githubusercontent.com/ousat/ORMAE-online-test/master/images/database.png)
     
 
 
